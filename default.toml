@@ -39,7 +39,7 @@ appleskin = "mr:EsAfCjCV"                # Visible saturation
 sound-physics-remastered = "mr:qyVF9oeo" # Realistic sounds
 iris = "mr:YL57xq9U"                     # Shaders
 sodium-extra = "mr:PtjYWJkn"             # More configuration options for sodium
-not-enough-animations = "mr:MPCX6s5C"    # Better animations
+eating-animation = "mr:rUgZvGzi"         # Adds eating animations
 lambdynamiclights = "mr:yBW8D80W"        # Torches light up in your hand
 3dskinlayers = "mr:zV5r3pPn"             # Player skins look 3D
 bobby = "mr:M08ruV16"                    # More render distance
@@ -47,6 +47,7 @@ chat-heads = "mr:Wb5oqrBJ"               # Player heads in chat
 enchantment-descriptions = "mr:UVtY3ZAC" # Descriptions for enchantments
 visuality = "mr:rI0hvYcd"                # Particle effects
 chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
+chatanimation = "mr:DnNYdJsx"            # Makes chat messages look SMOooth
 
 # Utility
 modmenu = "mr:mOgUt4GM"     # Mod menu to configure Minecraft mods
