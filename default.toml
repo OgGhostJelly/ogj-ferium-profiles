@@ -1,0 +1,71 @@
+# OgGhostJelly's Vanilla+ profile: QOL and visual improvements
+# All mods are client-side and dont change the game mechanics whatsoever
+
+versions = "=1.21.1"
+mod-loaders = ["Fabric", "Quilt"]
+
+[options]
+darkMojangStudiosBackground = true
+# Turn on LOL Cat language. For the funnies.
+lang = "lol_us"
+
+[options.keybinds] # My custom keybindings, you should probably remove this if you aren't me.
+key_key.swapOffhand = "key.keyboard.r"
+key_key.togglePerspective = "key.keyboard.f"
+key_iris.keybind.reload = "key.keyboard.f5"
+
+[overrides]
+# Shaderpack settings for Complementary Unbound
+"shaderpacks/ComplementaryUnbound_r5.4.zip.txt" = '''#Tue Apr 15 14:49:09 ICT 2025
+BLOCK_REFLECT_QUALITY=0
+CHROMA_ABERRATION=3
+CLOUD_QUALITY=1
+DETAIL_QUALITY=0
+FXAA_DEFINE=-1
+LIGHTSHAFT_QUALI_DEFINE=0
+SHADOW_QUALITY=-1
+WATER_REFLECT_QUALITY=1
+shadowDistance=64.0'''
+
+[mods]
+# Disable this if you get motion sickness easily! 
+do-a-barrel-roll = "mr:6FtRfnLg" # Make elytra go spinny spin
+
+essential = "mr:k2ZPuTBm" # Its essential
+
+# Niceties
+blahaj-of-undying = "mr:aJb4vlkM"        # Blahaj totem of undying
+appleskin = "mr:EsAfCjCV"                # Visible saturation
+sound-physics-remastered = "mr:qyVF9oeo" # Realistic sounds
+iris = "mr:YL57xq9U"                     # Shaders
+sodium-extra = "mr:PtjYWJkn"             # More configuration options for sodium
+not-enough-animations = "mr:MPCX6s5C"    # Better animations
+lambdynamiclights = "mr:yBW8D80W"        # Torches light up in your hand
+3dskinlayers = "mr:zV5r3pPn"             # Player skins look 3D
+bobby = "mr:M08ruV16"                    # More render distance
+chat-heads = "mr:Wb5oqrBJ"               # Player heads in chat
+enchantment-descriptions = "mr:UVtY3ZAC" # Descriptions for enchantments
+visuality = "mr:rI0hvYcd"                # Particle effects
+chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
+
+# Utility
+modmenu = "mr:mOgUt4GM"     # Mod menu to configure Minecraft mods
+yacl = "mr:1eAoo2KR"        # Configuration library
+controlling = "mr:xv94TkTM" # Search bar in the Minecraft keybinds menu
+rrls = "mr:ZP7xHXtw"        # Reload in the background
+fastquit = "mr:x1hIzbuY"    # Save Minecraft worlds in the background
+tooltipfix = "mr:2RKFTmiB"  # Fix tooltips going off-screen
+
+[resourcepacks]
+mandalas-gui-dark-mode = "mr:h6zxsNVF" # Dark mode! Currently only 1.12.2-1.20.4
+even-better-enchants = "mr:6udpuGCH"   # Better enchant book textures
+
+[resourcepacks.flower-crown-helmets] # My own flower crown helmets resourcepack
+src = "gh:OgGhostJelly/Flower-Crown-Helmets"
+hash = "45d4c11b07cdaad4862f94627f6842f3x"   # Sha512 (base-16) file hash
+
+[shaders]
+complementary-unbound = "mr:R6NEzAwj" # PRETY SHADERZ
+
+[modpacks]
+simply-optimized = ["mr:BYfVnHa7", "cf:633504"] # Optimization mods
