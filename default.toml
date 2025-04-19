@@ -54,7 +54,6 @@ chat-heads = "mr:Wb5oqrBJ"               # Player heads in chat
 enchantment-descriptions = "mr:UVtY3ZAC" # Descriptions for enchantments
 visuality = "mr:rI0hvYcd"                # Particle effects
 chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
-chatanimation = "mr:DnNYdJsx"            # Makes chat messages look SMOooth
 
 # Utility
 modmenu = "mr:mOgUt4GM"     # Mod menu to configure Minecraft mods
