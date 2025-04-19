@@ -6,6 +6,11 @@ mod-loaders = ["Fabric", "Quilt"]
 
 [options]
 darkMojangStudiosBackground = true
+directionalAudio = true
+showSubtitles = true
+advancedItemTooltips = true
+skipMultiplayerWarning = true
+
 # Turn on LOL Cat language. For the funnies.
 lang = "lol_us"
 # Enable resourcepacks
