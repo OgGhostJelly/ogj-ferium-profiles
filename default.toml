@@ -8,6 +8,13 @@ mod-loaders = ["Fabric", "Quilt"]
 darkMojangStudiosBackground = true
 # Turn on LOL Cat language. For the funnies.
 lang = "lol_us"
+# Enable resourcepacks
+resourcePacks = [
+    "vanilla",
+    "fabric",
+    "file/EvenBetterEnchants_v2_r1.zip",
+    "file/FlowerCrownHelmets.zip",
+]
 
 [options.keybinds] # My custom keybindings, you should probably remove this if you aren't me.
 key_key.swapOffhand = "key.keyboard.r"
