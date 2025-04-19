@@ -1,0 +1,6 @@
+# Profile to automatically install the latest `default.toml` from Github.
+# You can remove the hash for easier updates, but this reduces security.
+
+[[imports]]
+src = "https://raw.githubusercontent.com/OgGhostJelly/ogj-ferium-profiles/refs/heads/main/default.toml"
+hash = "90549b051d0fb2865c032b79dbf9276d5069f01be573471d7d3ff3750b029763be7a5320777f3c1212d2417a813b5af1a7e85d81dcd4239092e938503171cfd6"
