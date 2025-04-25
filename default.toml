@@ -19,6 +19,8 @@ resourcePacks = [
     "fabric",
     "file/EvenBetterEnchants_v2_r1.zip",
     "file/FlowerCrownHelmets.zip",
+    "file/Old logo 1.21.1.zip",
+    "file/OldRain.zip",
 ]
 
 [options.keybinds] # My custom keybindings, you should probably remove this if you aren't me.
@@ -61,16 +63,21 @@ visuality = "mr:rI0hvYcd"                # Particle effects
 chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
 
 # Utility
-modmenu = "mr:mOgUt4GM"     # Mod menu to configure Minecraft mods
-yacl = "mr:1eAoo2KR"        # Configuration library
-controlling = "mr:xv94TkTM" # Search bar in the Minecraft keybinds menu
-rrls = "mr:ZP7xHXtw"        # Reload in the background
-fastquit = "mr:x1hIzbuY"    # Save Minecraft worlds in the background
-tooltipfix = "mr:2RKFTmiB"  # Fix tooltips going off-screen
+modmenu = "mr:mOgUt4GM"                   # Mod menu to configure Minecraft mods
+yacl = "mr:1eAoo2KR"                      # Configuration library
+controlling = "mr:xv94TkTM"               # Search bar in the Minecraft keybinds menu
+rrls = "mr:ZP7xHXtw"                      # Reload in the background
+fastquit = "mr:x1hIzbuY"                  # Save Minecraft worlds in the background
+tooltipfix = "mr:2RKFTmiB"                # Fix tooltips going off-screen
+litematica = ["mr:bEpr0Arc", "cf:308892"] # Schematics !!!
 
 [resourcepacks]
 mandalas-gui-dark-mode = "mr:h6zxsNVF" # Dark mode! Currently only 1.12.2-1.20.4
 even-better-enchants = "mr:6udpuGCH"   # Better enchant book textures
+
+# BACK IN MY DAY
+old-logo = "mr:rMVAkQx1"        # Remove "Java Edition" from the Minecraft logo.
+old-rain-sounds = "mr:WkuQBd6m" # I love rain
 
 [resourcepacks.flower-crown-helmets] # My own flower crown helmets resourcepack
 src = "gh:OgGhostJelly/Flower-Crown-Helmets"
