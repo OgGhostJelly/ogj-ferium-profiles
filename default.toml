@@ -41,6 +41,27 @@ SHADOW_QUALITY=-1
 WATER_REFLECT_QUALITY=1
 shadowDistance=64.0'''
 
+"config/chatplus/chatplus-v2.5.0.json" = '''{
+    "scrollbarWidth": 2,
+    "movableChatEnabled": false,
+    "vanillaInputBox": true,
+    "inputBoxSettings": {
+        "showInputBoxInputLength": false
+    },
+    "sendNoteEnabled": false,
+    "bookmarkEnabled": false,
+    "findMessageEnabled": false,
+    "screenshotChatEnabled": false,
+    "keyPeekChat": "key.keyboard.z",
+    "translatorEnabled": false,
+    "speechToTextEnabled": false
+}'''
+
+"config/symbol-chat.json" = '''{
+    "hide_font_button": true,
+    "hide_settings_button": true
+}'''
+
 [mods]
 # Disable this if you get motion sickness easily! 
 do-a-barrel-roll = "mr:6FtRfnLg" # Make elytra go spinny spin
@@ -57,7 +78,6 @@ eating-animation = "mr:rUgZvGzi"         # Adds eating animations
 lambdynamiclights = "mr:yBW8D80W"        # Torches light up in your hand
 3dskinlayers = "mr:zV5r3pPn"             # Player skins look 3D
 bobby = "mr:M08ruV16"                    # More render distance
-chat-heads = "mr:Wb5oqrBJ"               # Player heads in chat
 enchantment-descriptions = "mr:UVtY3ZAC" # Descriptions for enchantments
 visuality = "mr:rI0hvYcd"                # Particle effects
 chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
@@ -71,6 +91,8 @@ rrls = "mr:ZP7xHXtw"                      # Reload in the background
 fastquit = "mr:x1hIzbuY"                  # Save Minecraft worlds in the background
 tooltipfix = "mr:2RKFTmiB"                # Fix tooltips going off-screen
 litematica = ["mr:bEpr0Arc", "cf:308892"] # Schematics !!!
+chat-plus = "mr:cJlZ132G"                 # Super customizable chat
+symbol-chat = "mr:NKvLVQMc"               # Emojis in Minecraft chat
 
 [resourcepacks]
 mandalas-gui-dark-mode = "mr:h6zxsNVF" # Dark mode! Currently only 1.12.2-1.20.4
