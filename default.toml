@@ -118,7 +118,7 @@ old-rain-sounds = "mr:WkuQBd6m" # I love rain
 
 [resourcepacks.flower-crown-helmets] # My own flower crown helmets resourcepack
 src = "gh:OgGhostJelly/Flower-Crown-Helmets"
-hash = "45d4c11b07cdaad4862f94627f6842f3x"   # Sha512 (base-16) file hash
+hash = "45d4c11b07cdaad4862f94627f6842f3"    # Sha512 (base-16) file hash
 
 [shaders]
 complementary-unbound = "mr:R6NEzAwj" # PRETY SHADERZ
