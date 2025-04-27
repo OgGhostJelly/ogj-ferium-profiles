@@ -22,11 +22,15 @@ resourcePacks = [
     "file/Old logo 1.21.1.zip",
     "file/OldRain.zip",
 ]
+# Minecraft auto-removes OldRain if this isnt here
+incompatibleResourcePacks = ["file/OldRain.zip"]
 
 [options.keybinds] # My custom keybindings, you should probably remove this if you aren't me.
 key_key.swapOffhand = "key.keyboard.r"
 key_key.togglePerspective = "key.keyboard.f"
 key_iris.keybind.reload = "key.keyboard.f5"
+key_keybind.name.COSMETIC_STUDIO = "key.keyboard.unknown"
+key_keybind.name.EMOTE_WHEEL = "key.keyboard.b"
 
 [overrides]
 # Shaderpack settings for Complementary Unbound
@@ -41,6 +45,7 @@ SHADOW_QUALITY=-1
 WATER_REFLECT_QUALITY=1
 shadowDistance=64.0'''
 
+# Chat mod settings to make it feel more Vanilla.
 "config/chatplus/chatplus-v2.5.0.json" = '''{
     "scrollbarWidth": 2,
     "movableChatEnabled": false,
@@ -63,7 +68,7 @@ shadowDistance=64.0'''
 }'''
 
 [mods]
-# Disable this if you get motion sickness easily! 
+# Press 'I' in-game to disable if you get motion sickness easily!
 do-a-barrel-roll = "mr:6FtRfnLg" # Make elytra go spinny spin
 
 essential = "mr:k2ZPuTBm" # Its essential
@@ -71,7 +76,6 @@ essential = "mr:k2ZPuTBm" # Its essential
 # Niceties
 blahaj-of-undying = "mr:aJb4vlkM"        # Blahaj totem of undying
 appleskin = "mr:EsAfCjCV"                # Visible saturation
-sound-physics-remastered = "mr:qyVF9oeo" # Realistic sounds
 iris = "mr:YL57xq9U"                     # Shaders
 sodium-extra = "mr:PtjYWJkn"             # More configuration options for sodium
 eating-animation = "mr:rUgZvGzi"         # Adds eating animations
@@ -82,6 +86,12 @@ enchantment-descriptions = "mr:UVtY3ZAC" # Descriptions for enchantments
 visuality = "mr:rI0hvYcd"                # Particle effects
 chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
 chatanimation = "mr:DnNYdJsx"            # Makes chat messages look SMOooth
+cave-dust = "mr:jawg7zT1"                # Ambient cave dust
+
+# Sounds
+sound-physics-remastered = "mr:qyVF9oeo" # Realistic sounds and reverb
+presence-footsteps = "mr:rcTfTZr3"       # Fancy footstep sounds
+ambientsounds = "mr:fM515JnW"            # Nice ambience
 
 # Utility
 modmenu = "mr:mOgUt4GM"                   # Mod menu to configure Minecraft mods
@@ -93,6 +103,10 @@ tooltipfix = "mr:2RKFTmiB"                # Fix tooltips going off-screen
 litematica = ["mr:bEpr0Arc", "cf:308892"] # Schematics !!!
 chat-plus = "mr:cJlZ132G"                 # Super customizable chat
 symbol-chat = "mr:NKvLVQMc"               # Emojis in Minecraft chat
+resourcify = "mr:RLzHAoZe"                # Install resourcepacks and shaders while in-game
+shulkerboxtooltip = "mr:2M01OLQq"         # Preview shulker contents
+replaymod = "mr:Nv2fQJo5"                 # Make epic cutscenes
+better-mount-hud = "mr:kqJFAPU9"          # Better horse mount HUD
 
 [resourcepacks]
 mandalas-gui-dark-mode = "mr:h6zxsNVF" # Dark mode! Currently only 1.12.2-1.20.4
