@@ -1,0 +1,14 @@
+# OgGhostJelly's Modded Minecraft+ profile
+# to improve my survival experience with fun mods
+
+versions = "=1.20.1"
+mod-loaders = ["Fabric", "Quilt"]
+
+imports = ["./default.toml"]
+
+[mods]
+create = "mr:Xbc0uyRg"          # Automations
+enchancement = "mr:6hN1V6wJ"    # Overhauled enchantments and durability
+rei = "mr:nfn13YXA"             # Browse Minecraft recipes
+amendments = "mr:6iTJugQR"      # Tweaking existing Vanilla blocks
+supplementaries = "mr:fFEIiSDQ" # More blocks and items
