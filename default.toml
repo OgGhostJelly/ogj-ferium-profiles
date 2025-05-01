@@ -11,8 +11,8 @@ showSubtitles = true
 advancedItemTooltips = true
 skipMultiplayerWarning = true
 
-# Turn on LOL Cat language. For the funnies.
-lang = "lol_us"
+# Turn on Esperanto, because I don't want to enable it every time
+lang = "eo_uy"
 # Enable resourcepacks
 resourcePacks = [
     "vanilla",
@@ -67,6 +67,27 @@ shadowDistance=64.0'''
     "hide_settings_button": true
 }'''
 
+# `wakes` mod configuration
+"config/wakes.json" = '''{
+    "boatSpawning": "ONLY_SIMULATION",
+    "wakeOpacity": 0.7
+}'''
+
+# Disable `visuality` rain particles
+# because `particular` already has rain particles
+"config/visuality.json" = '''{
+  "waterCircles": {
+    "enabled": false
+  }
+}'''
+
+# Disable water splash because `wakes` already has water splashes
+# Disable falling leaves because it's obnoxious IMO
+"config/particular.json5" = '''{
+	"waterSplash": false,
+	"fallingLeaves": false
+}'''
+
 [mods]
 # Press 'I' in-game to disable if you get motion sickness easily!
 do-a-barrel-roll = "mr:6FtRfnLg" # Make elytra go spinny spin
@@ -86,7 +107,6 @@ enchantment-descriptions = "mr:UVtY3ZAC" # Descriptions for enchantments
 visuality = "mr:rI0hvYcd"                # Particle effects
 chunks-fade-in = "mr:JaNmzvA8"           # Chunks fade-in like bedrock edition
 chatanimation = "mr:DnNYdJsx"            # Makes chat messages look SMOooth
-cave-dust = "mr:jawg7zT1"                # Ambient cave dust
 
 # Sounds
 sound-physics-remastered = "mr:qyVF9oeo" # Realistic sounds and reverb
@@ -107,6 +127,9 @@ resourcify = "mr:RLzHAoZe"                # Install resourcepacks and shaders wh
 shulkerboxtooltip = "mr:2M01OLQq"         # Preview shulker contents
 replaymod = "mr:Nv2fQJo5"                 # Make epic cutscenes
 better-mount-hud = "mr:kqJFAPU9"          # Better horse mount HUD
+bettercommandblockui = "mr:8iQcgjQ2"      # More usable command blocks
+particular = "mr:B1CcCd9h"                # Various particle effects
+wakes = "mr:dlNu0RQY"                     # Adds wakes while traveling on water
 
 [resourcepacks]
 mandalas-gui-dark-mode = "mr:h6zxsNVF" # Dark mode! Currently only 1.12.2-1.20.4
