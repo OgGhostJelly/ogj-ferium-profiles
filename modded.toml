@@ -6,6 +6,29 @@ mod-loaders = ["Fabric", "Quilt"]
 
 imports = ["./default.toml"]
 
+[overrides]
+# `wakes` mod configuration
+# this is a repeated version of the same configuration from `default.toml`
+# with slight modifications to work around a graphics bug
+"config/wakes.json" = '''{
+    "boatSpawning": "ONLY_SIMULATION",
+    "wakeOpacity": 0.7,
+    "renderType": "GENERAL"
+}'''
+
+# Force using `particular` even though its incompatible with supplementaries
+# I don't mind a few graphics bugs the trade-off is worth it
+"config/fabric_loader_dependencies.json" = '''{
+    "version": 1,
+    "overrides": {
+        "supplementaries": {
+            "-breaks": {
+                "particular": "IGNORED"
+            }
+        }
+    }
+}'''
+
 [mods]
 create = "mr:Xbc0uyRg"          # Automations
 enchancement = "mr:6hN1V6wJ"    # Overhauled enchantments and durability
