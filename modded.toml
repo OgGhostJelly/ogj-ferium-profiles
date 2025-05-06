@@ -30,9 +30,12 @@ imports = ["./default.toml"]
 }'''
 
 [mods]
-create = "mr:Xbc0uyRg"          # Automations
-enchancement = "mr:6hN1V6wJ"    # Overhauled enchantments and durability
-rei = "mr:nfn13YXA"             # Browse Minecraft recipes
-amendments = "mr:6iTJugQR"      # Tweaking existing Vanilla blocks
-supplementaries = "mr:fFEIiSDQ" # More blocks and items
-suppsquared = "mr:dCCkNFwE"     # More supplementaries
+create = "mr:Xbc0uyRg"             # Automations
+enchancement = "mr:6hN1V6wJ"       # Overhauled enchantments and durability
+rei = "mr:nfn13YXA"                # Browse Minecraft recipes
+amendments = "mr:6iTJugQR"         # Tweaking existing Vanilla blocks
+supplementaries = "mr:fFEIiSDQ"    # More blocks and items
+suppsquared = "mr:dCCkNFwE"        # More supplementaries
+create-estrogen = "mr:HhIJW8n1"    # hehehe
+extended-cogwheels = "mr:qO4lsa4Y" # Prettier cogwheels
+create-interiors = "mr:r4Knci2k"   # Chairs for create
